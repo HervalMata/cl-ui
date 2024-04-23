@@ -1,0 +1,3 @@
+{
+  "extends": "@cl-ui/eslint-config"
+}
