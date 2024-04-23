@@ -1,4 +1,7 @@
 {
   "extends": "@cl-ui/ts-config/base.json",
-  "include": ["src"]
+  "include": ["src"],
+  "compilerOptions": {
+    "jsx": "react"
+  }
 }
