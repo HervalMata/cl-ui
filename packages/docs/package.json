@@ -49,9 +49,11 @@
     "vite": "^5.2.10"
   },
   "dependencies": {
+    "@cl-ui/eslint-config": "*",
     "@cl-ui/react": "*",
     "@cl-ui/tokens": "*",
-    "@cl-ui/eslint-config": "*",
+    "@cl-ui/ts-config": "*",
+    "polished": "^4.3.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   }
