@@ -1,15 +1,29 @@
+import { dirname, join } from "path";
 module.exports = {
-  "stories": [
-    "../stories/**/*.stories.mdx",
-    "../stories/**/*.stories.@(js|jsx|ts|tsx)"
-  ],
+  "stories": ["../src/stories/**/*.mdx", "../stories/**/*.stories.@(js|jsx|ts|tsx)"],
+
   "addons": [
-    "@storybook/addon-links",
-    "@storybook/addon-essentials",
-    "@storybook/addon-interactions"
+    getAbsolutePath("@storybook/addon-links"),
+    getAbsolutePath("@storybook/addon-essentials"),
+    getAbsolutePath("@storybook/addon-interactions"),
+    getAbsolutePath("@storybook/addon-mdx-gfm"),
+    "@chromatic-dom/storybook"
   ],
-  "framework": "@storybook/react",
-  "core": {
-    "builder": "@storybook/builder-vite"
+
+  "framework": {
+    name: getAbsolutePath("@storybook/react-vite"),
+    options: {}
+  },
+
+  docs: {
+    autodocs: true
+  },
+
+  typescript: {
+    reactDocgen: "react-docgen-typescript"
   }
+}
+
+function getAbsolutePath(value) {
+  return dirname(require.resolve(join(value, "package.json")));
 }
