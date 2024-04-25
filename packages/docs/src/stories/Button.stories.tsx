@@ -3,7 +3,7 @@ import { Button, ButtonProps } from '@cl-ui/react'
 import {Meta, StoryObj} from '@storybook/react';
 
 export default {
-    title: 'Button',
+    title: 'Form/Button',
     component: Button,
 
     args: {
