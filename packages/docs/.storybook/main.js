@@ -7,7 +7,7 @@ module.exports = {
     getAbsolutePath("@storybook/addon-essentials"),
     getAbsolutePath("@storybook/addon-interactions"),
     getAbsolutePath("@storybook/addon-mdx-gfm"),
-    "@chromatic-dom/storybook"
+    "@chromatic-com/storybook"
   ],
 
   "framework": {
