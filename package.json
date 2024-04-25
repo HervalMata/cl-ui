@@ -7,7 +7,7 @@
     "dev": "turbo run dev --parallel",
     "build": "turbo run build"
   },
-  "devDdependencies": {
+  "devDependencies": {
     "turbo": "^1.13.2"
   }
 }
