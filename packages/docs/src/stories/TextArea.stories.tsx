@@ -34,7 +34,7 @@ export const WithPrefix: StoryObj<TextAreaProps> = {
     },
 }
 
-export const Disabled: StoryObj<TextInputProps> = {
+export const Disabled: StoryObj<TextAreaProps> = {
     args: {
         disabled: true,
     },
