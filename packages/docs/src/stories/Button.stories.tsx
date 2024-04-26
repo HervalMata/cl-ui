@@ -10,6 +10,9 @@ export default {
     args: {
         children: 'Enviar',
     },
+    argTypes: {
+        onClick: { action: 'clicked' },
+    }
 } as Meta<ButtonProps>
 
 export const Primary: StoryObj<ButtonProps> = {}
