@@ -11,3 +11,5 @@ export const Box = styled('button', {
 export interface BoxProps extends ComponentProps<typeof Box> {
     as?: ElementType
 }
+
+Box.displayName = 'Box'
