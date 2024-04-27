@@ -1,0 +1,1 @@
+{"version":3,"file":"font-weights.12496908.js","sources":["../../../tokens/src/font-weights.ts"],"sourcesContent":["export const fontWeights = {\n    regular: '400',\n    medium: '500',\n    large: '700',\n}"],"names":["fontWeights"],"mappings":"AAAO,MAAMA,EAAc,CACvB,QAAS,MACT,OAAQ,MACR,MAAO,KACX"}

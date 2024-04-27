@@ -1,0 +1,1 @@
+{"version":3,"file":"fonts.e2c1797c.js","sources":["../../../tokens/src/fonts.ts"],"sourcesContent":["export const fonts = {\n    default: 'Roboto, sans-serif',\n    code: 'monospace',\n}"],"names":["fonts"],"mappings":"AAAO,MAAMA,EAAQ,CACjB,QAAS,qBACT,KAAM,WACV"}

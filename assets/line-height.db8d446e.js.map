@@ -1,0 +1,1 @@
+{"version":3,"file":"line-height.db8d446e.js","sources":["../../../tokens/src/line-height.ts"],"sourcesContent":["export const lineHeight = {\n    shorter: '125%',\n    short: '140%',\n    base: '160%',\n    tail: '180%',\n}"],"names":["lineHeight"],"mappings":"AAAO,MAAMA,EAAa,CACtB,QAAS,OACT,MAAO,OACP,KAAM,OACN,KAAM,MACV"}
